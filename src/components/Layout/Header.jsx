@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderCartButton from "./HeaderCartButton";
 import sushiImg from "../../assets/sushi.jpg";
 import styles from "./Header.module.css";
 
@@ -7,7 +8,7 @@ const Header = () => {
     <React.Fragment>
       <header className={styles.header}>
         <h1>Sushi Bar</h1>
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
       <div className={styles["main-image"]}>
         <img src={sushiImg} alt="sushi-bar" />
