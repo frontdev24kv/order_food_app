@@ -37,6 +37,7 @@ http://localhost:5173
 ```
 
 ## 📂 Project Structure:
+```csharp
 order_food_app/
 │── src/
 │   ├── assets/           # Images & icons
@@ -47,7 +48,7 @@ order_food_app/
 │── public/               # Static assets
 │── package.json          # Dependencies & scripts
 │── README.md             # Project documentation
-
+```
 ### 📸 Screenshots
 ### 🏠 Home Page
 ![Home Page](src/assets/screenshots/order_food_1.png)
