@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CartContextProvider from "./components/store/CartContextProvider";
+import CartContextProvider from "./store/CartContextProvider";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
